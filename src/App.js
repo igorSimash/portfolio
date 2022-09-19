@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Menu from "./components/UI/menu/Menu";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Routing from './components/routing/Routing'
+import {useState} from "react";
+import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    const [menuOpened, setMenuOpened] = useState(false)
+
+    return (
+        <div className={'App'}>
+            <BrowserRouter>
+                 <Menu menuOpened={menuOpened} setMenuOpened={setMenuOpened}/>
+                <Routing menuOpened={menuOpened}/>
+            </BrowserRouter>
+        </div>
   );
 }
 

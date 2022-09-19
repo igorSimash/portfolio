@@ -1,0 +1,209 @@
+.menu-icon__container {
+    z-index: 1000;
+    cursor: pointer;
+    height: 70px;
+    width: 95px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+@media screen and (min-width: 600px) {
+    .menu-icon__container {
+        height: 100px;
+        width: 100px;
+    }
+}
+.menu-icon-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    transform-origin: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.6);
+}
+.menu-icon {
+    transform-origin: center;
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: calc(50% - 25px);
+    height: 25px;
+    width: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-icon > div {
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.15s all ease-in-out;
+    transform-origin: left;
+    background-image: linear-gradient(
+            to right,
+            rgb(138, 134, 190),
+            rgb(238, 224, 251)
+    );
+}
+.menu-icon > div:nth-of-type(2) {
+    width: 40%;
+}
+
+/* menu icon on hover */
+@media screen and (min-width: 600px) {
+    .menu-icon__container:hover > .menu-icon > div:nth-of-type(2) {
+        margin-left: 20%;
+    }
+    .menu-icon__container:hover > .menu-icon-circle.menu-open {
+        animation: menu-icon-circle-anim 0.4s 1;
+        animation-delay: 0.15s;
+    }
+}
+
+/* menu open */
+.menu-icon__container.menu-open > .menu-icon > div {
+    height: 1px;
+}
+.menu-icon__container.menu-open > .menu-icon > div:nth-of-type(1) {
+    transform: rotate(45deg);
+    width: 35px;
+}
+.menu-icon__container.menu-open > .menu-icon > div:nth-of-type(2) {
+    opacity: 0;
+    margin-left: 0%;
+}
+.menu-icon__container.menu-open > .menu-icon > div:nth-of-type(3) {
+    transform: rotate(-45deg);
+    width: 35px;
+}
+
+.menu-list-container {
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.menu-list {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    transform-origin: center;
+    transition: 0.1s all ease-in-out;
+    background-color: #021b39;
+    transform: scale(3);
+    opacity: 0;
+}
+.menu-item {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px 0px;
+    text-decoration: none;
+}
+.menu-item:last-of-type {
+    margin-bottom: 0px;
+}
+.menu-item__title {
+    line-height: 1;
+    font-size: 5rem;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+.menu-item__subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.menu-item__background {
+    z-index: 50;
+    height: 50px;
+    width: 0px;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    margin-left: calc(50% - 100px);
+    transition: 0.15s all ease-in-out;
+    background-image: linear-gradient(
+            to right,
+            rgb(138, 134, 190),
+            rgb(238, 224, 251)
+    );
+}
+@media screen and (min-width: 600px) {
+    .menu-item:hover > .menu-item__background {
+        width: 200px;
+    }
+}
+
+/* menu open */
+.menu-list-container.menu-open {
+    pointer-events: all;
+    z-index: 100;
+}
+.menu-list-container.menu-open > .menu-list {
+    opacity: 1;
+    transform: scale(1);
+}
+.menu-list-container.menu-open ~ .App-particles__container canvas {
+    transform: scale(1.5);
+}
+.menu-list-container.menu-open ~ .App {
+    pointer-events: none;
+    transform: scale(0.7);
+}
+.menu-list-container.menu-open ~ .App .App-text {
+    opacity: 0;
+}
+
+@keyframes menu-icon-circle-anim {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+        top: 50%;
+        left: 50%;
+    }
+    70% {
+        width: 100px;
+        height: 100px;
+        opacity: 0.05;
+        top: calc(50% - 50px);
+        left: calc(50% - 50px);
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+        top: calc(50% - 50px);
+        left: calc(50% - 50px);
+    }
+}
+@-webkit-keyframes menu-icon-circle-anim {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+    70% {
+        width: 100px;
+        height: 100px;
+        opacity: 0.3;
+    }
+    100% {
+        width: 150px;
+        height: 150px;
+        opacity: 0;
+    }
+}

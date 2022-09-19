@@ -1,0 +1,10 @@
+
+.smooth-nav {
+    animation: popDown 500ms ease;
+}
+
+@keyframes popDown {
+    0% {
+        height: 0;
+    }
+}
