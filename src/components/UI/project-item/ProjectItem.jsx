@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectItem.css'
 import LearnMoreBtn from "../learn-more-btn/LearnMoreBtn";
 
-const ProjectItem = ({img, isMobile, name, skills, description, url}) => {
+const ProjectItem = ({img, isMobile, name, skills, description, site, github}) => {
     return (
             <div className={`card s:mx-auto ${isMobile ? 'card-mobile' : null}`}>
                 <div className={`image ${isMobile ? 'image-mobile' : null}`}>
@@ -14,7 +14,8 @@ const ProjectItem = ({img, isMobile, name, skills, description, url}) => {
                         <h1>{name}<br/><span>{skills}</span></h1>
                         <p>{description}</p>
                         <div className={'flex justify-center'}>
-                            <LearnMoreBtn url={url}/>
+                            <LearnMoreBtn url={site}>Site</LearnMoreBtn>
+                            <LearnMoreBtn url={github}>GitHub</LearnMoreBtn>
                         </div>
                     </div>
                 </div>

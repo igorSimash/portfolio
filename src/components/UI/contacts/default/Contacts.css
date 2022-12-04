@@ -15,8 +15,8 @@
 }
 .contacts-ul .contacts-li .contacts-href.contacts-href .fa-brands {
     font-size: 5em;
-    color: #222;
-    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.36);
+    margin-top: 1.25rem;
 }
 .contacts-ul .contacts-li .contacts-href::before {
     font-family: "FontAwesome";

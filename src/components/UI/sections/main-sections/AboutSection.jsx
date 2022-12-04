@@ -11,7 +11,6 @@ import {Fade, Flip, Zoom} from "react-awesome-reveal";
 
 const AboutSection = () => {
 
-
     return (
         <section
             className={'bg-white font-raleway pb-32 relative z-10'}
@@ -109,9 +108,10 @@ const AboutSection = () => {
                         <div className={'text-center font-bold text-xl'}>
                             Who is this guy?
                         </div>
-                        <div className={'text-center mx-3 s:-mx-10 '}>
-                            I'm Front-End Developer from Rivne, Ukraine, but want to work in Kyiv (ready for relocate).
-                            I have a serious passion for UI design, effects, animations and creating cool,
+                        <div className={'text-center mx-3 s:-mx-10'}>
+                            I'm Front-End Developer from Rivne, Ukraine.
+                            Ready to relocate.
+                            I have serious passion for UI design, effects, animations and creating cool,
                             understandable, dynamic UX.
                         </div>
                     </div>
