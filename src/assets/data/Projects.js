@@ -6,15 +6,6 @@ import Gym from '../projects/gym_mobile_main.png'
 import Shop from '../projects/shop-app2.png'
 export const projects = [
     {
-        name: 'Sign up example',
-        skills: 'React, Sass, RESTful API',
-        description: 'Sign up with POST/GET requests',
-        img: Landing,
-        mobile: false,
-        site: 'https://signup-ihor.netlify.app',
-        github: 'https://github.com/igorSimash/signup-example'
-    },
-    {
         name: 'Shop app',
         skills: 'MERN Stack, TailwindCSS',
         description: 'Fake shop-app with MongoDB connection',
@@ -22,6 +13,15 @@ export const projects = [
         mobile: false,
         site: 'https://ihor-shop.vercel.app/',
         github: 'https://github.com/igorSimash/shop-app-react'
+    },
+    {
+        name: 'Sign up example',
+        skills: 'React, Sass, RESTful API',
+        description: 'Sign up with POST/GET requests',
+        img: Landing,
+        mobile: false,
+        site: 'https://signup-ihor.netlify.app',
+        github: 'https://github.com/igorSimash/signup-example'
     },
     {
         name: 'Weather forecast',

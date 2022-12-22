@@ -1,10 +1,11 @@
 import React from 'react';
 import './ProjectItem.css'
 import LearnMoreBtn from "../learn-more-btn/LearnMoreBtn";
+import '../../../styles/projects.css'
 
 const ProjectItem = ({img, isMobile, name, skills, description, site, github}) => {
     return (
-            <div className={`card s:mx-auto ${isMobile ? 'card-mobile' : null}`}>
+            <div className={`card hideSiblings s:mx-auto ${isMobile ? 'card-mobile' : null}`}>
                 <div className={`image ${isMobile ? 'image-mobile' : null}`}>
                     <img
                         src={img} alt={''}/>

@@ -1,0 +1,9 @@
+.hideSiblings {
+    transition: all .35s ease;
+}
+
+.hideSiblings:hover /*~ .projectContainer > .hideSiblings:not(:hover)*/
+{
+    transform: scale(110%);
+    border: 1px solid #000000;
+}
