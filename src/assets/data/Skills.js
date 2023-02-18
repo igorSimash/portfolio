@@ -8,20 +8,24 @@ export const skills = [
         percentage: 85,
     },
     {
+        skill: 'Typescript',
+        percentage: 90,
+    },
+    {
         skill: 'Javascript',
         percentage: 92,
     },
     {
-        skill: 'Typescript',
-        percentage: 88,
+        skill: 'Node.js',
+        percentage: 84,
     },
     {
-        skill: 'HTML',
-        percentage: 93,
+        skill: 'Express',
+        percentage: 78,
     },
     {
-        skill: 'CSS',
-        percentage: 90,
+        skill: 'SQL',
+        percentage: 91,
     },
     {
         skill: 'TailwindCSS',
@@ -32,15 +36,11 @@ export const skills = [
         percentage: 85,
     },
     {
-        skill: 'SQL',
-        percentage: 91,
+        skill: 'HTML',
+        percentage: 93,
     },
     {
-        skill: 'Node.js',
-        percentage: 78,
-    },
-    {
-        skill: 'Express',
-        percentage: 74,
+        skill: 'CSS',
+        percentage: 90,
     },
 ]

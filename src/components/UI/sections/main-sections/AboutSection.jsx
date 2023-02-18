@@ -109,9 +109,9 @@ const AboutSection = () => {
                             Who is this guy?
                         </div>
                         <div className={'text-center mx-3 s:-mx-10'}>
-                            I'm Front-End Developer from Rivne, Ukraine.
+                            I'm Full Stack Developer from Rivne, Ukraine.
                             Ready to relocate.
-                            I have serious passion for UI design, effects, animations and creating cool,
+                            I have serious passion for UI design, animations and creating cool,
                             understandable, dynamic UX.
                         </div>
                     </div>
