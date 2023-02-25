@@ -4,7 +4,17 @@ import Converter from '../projects/CurrencyConverter.png'
 import Posts from '../projects/posts2.png'
 import Gym from '../projects/gym_mobile_main.png'
 import Shop from '../projects/shop-app2.png'
+import Todo from '../projects/Todo beta.png'
 export const projects = [
+    {
+        name: 'Todo app (Beta)',
+        skills: 'React, Typescript, Node.js, Express, MySQL',
+        description: 'Full Stack app with sign up/in, sessions etc...',
+        img: Todo,
+        mobile: false,
+        site: 'https://github.com/igorSimash/todo',
+        github: 'https://github.com/igorSimash/todo-server'
+    },
     {
         name: 'Shop app',
         skills: 'MERN Stack, TailwindCSS',

@@ -12,11 +12,11 @@ const ProjectItem = ({img, isMobile, name, skills, description, site, github}) =
                 </div>
                 <div className="details">
                     <div className="center">
-                        <h1>{name}<br/><span>{skills}</span></h1>
+                        <h1>{name}<br/><span className={'leading-[0]'}>{skills}</span></h1>
                         <p>{description}</p>
                         <div className={'flex justify-center'}>
-                            <LearnMoreBtn url={site}>Site</LearnMoreBtn>
-                            <LearnMoreBtn url={github}>GitHub</LearnMoreBtn>
+                            <LearnMoreBtn url={site}>{site.includes('github.com') ? 'GitHub (client)' : 'Site'}</LearnMoreBtn>
+                            <LearnMoreBtn url={github}>{site.includes('github.com') ? 'GitHub (server)' : 'GitHub'}</LearnMoreBtn>
                         </div>
                     </div>
                 </div>
