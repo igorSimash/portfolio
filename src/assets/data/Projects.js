@@ -7,13 +7,14 @@ import Shop from '../projects/shop-app2.png'
 import Todo from '../projects/Todo beta.png'
 export const projects = [
     {
-        name: 'Todo app (Beta)',
+        name: 'Todo app (no responsive yet)',
         skills: 'React, Typescript, Node.js, Express, MySQL',
         description: 'Full Stack app with sign up/in, sessions etc...',
         img: Todo,
         mobile: false,
-        site: 'https://github.com/igorSimash/todo',
-        github: 'https://github.com/igorSimash/todo-server'
+        site: 'https://ihor-todo.vercel.app/todos',
+        github: 'https://github.com/igorSimash/todo',
+        githubServer: 'https://github.com/igorSimash/todo-server'
     },
     {
         name: 'Shop app',
@@ -22,7 +23,8 @@ export const projects = [
         img: Shop,
         mobile: false,
         site: 'https://ihor-shop.vercel.app/',
-        github: 'https://github.com/igorSimash/shop-app-react'
+        github: 'https://github.com/igorSimash/shop-app-react',
+        githubServer: 'https://github.com/igorSimash/shop-app-server'
     },
     {
         name: 'Sign up example',

@@ -25,11 +25,10 @@ const PortfolioSection = () => {
                     <Zoom triggerOnce={true}>
                         <div
                             className={'projectContainer grid grid-cols-3 md:grid-cols-2 s:grid-cols-1 sm:grid-cols-2 px-10 gap-2 gap-y-10 justify-items-center items-center'}>
-                            {/*<ProjectItem />*/}
                             {projects.map((project, index) =>
                                 <ProjectItem key={index} img={project.img} site={project.site} github={project.github}
                                              description={project.description}
-                                             isMobile={project.mobile}
+                                             isMobile={project.mobile} githubServer={project.githubServer}
                                              name={project.name} skills={project.skills}/>
                             )}
                         </div>
