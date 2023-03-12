@@ -7,7 +7,7 @@ import Shop from '../projects/shop-app2.png'
 import Todo from '../projects/Todo beta.png'
 export const projects = [
     {
-        name: 'Todo app (no responsive yet)',
+        name: 'Todo app',
         skills: 'React, Typescript, Node.js, Express, MySQL',
         description: 'Full Stack app with sign up/in, sessions etc...',
         img: Todo,
