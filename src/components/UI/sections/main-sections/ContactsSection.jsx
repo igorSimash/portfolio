@@ -1,5 +1,4 @@
 import React from 'react';
-import CVpdf from "../../../../assets/CV Ihor Simashko.pdf";
 import Contacts from "../../contacts/default/Contacts";
 import {FaDownload} from "react-icons/fa";
 import {Bounce, Fade} from "react-awesome-reveal";
@@ -24,11 +23,11 @@ const ContactsSection = () => {
                 </div>
 
                 <div className={'grid justify-center gap-4 text-[#f5f5f5] pb-24'}>
-                        <span className={'text-xl font-bold text-center'}>
-                            Download CV
-                        </span>
-                    <a href={CVpdf} download={'Ihor-Simashko-CV.pdf'}>
-                        <div className={'flex justify-center text-6xl s:text-5xl cursor-pointer'}>
+                    <a href={'https://drive.google.com/file/d/1-Ub26apL1IBPQni1BjAME9jtOuMc9MbM/view?usp=sharing'}>
+                        <div className={'flex flex-col justify-center text-6xl s:text-5xl cursor-pointer'}>
+                            <span className={'text-4xl font-bold text-center mb-8'}>
+                            CV
+                            </span>
                             <FaDownload className={'hover:text-coolRed transition-all animate-bounce'}/>
                         </div>
                     </a>

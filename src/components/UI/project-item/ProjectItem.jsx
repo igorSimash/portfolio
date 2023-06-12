@@ -16,7 +16,7 @@ const ProjectItem = ({img, isMobile, name, skills, description, site, github, gi
                         <p>{description}</p>
                         <div className={'flex justify-center'}>
                             <LearnMoreBtn url={site}>{site.includes('github.com') ? 'GitHub (client)' : 'Site'}</LearnMoreBtn>
-                            <LearnMoreBtn url={github}>{site.includes('github.com') ? 'GitHub (server)' : 'GitHub'}</LearnMoreBtn>
+                            { github && <LearnMoreBtn url={github}>{site.includes('github.com') ? 'GitHub (server)' : 'GitHub'}</LearnMoreBtn>}
                             {githubServer && <LearnMoreBtn url={githubServer}>GitHub2</LearnMoreBtn>}
                         </div>
                     </div>

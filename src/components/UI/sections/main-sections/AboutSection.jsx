@@ -110,9 +110,9 @@ const AboutSection = () => {
                         </div>
                         <div className={'text-center mx-3 s:-mx-10'}>
                             I'm Full Stack Developer from Rivne, Ukraine.
-                            Ready to relocate.
-                            I have serious passion for UI design, animations and creating cool,
-                            understandable, dynamic UX.
+                            Experienced in working with teams to deliver high-quality products within deadlines.
+                            Passionate about learning and staying up-to-date with the latest industry trends and
+                            best practices
                         </div>
                     </div>
                     <div className={'w-3/5 ml-10 grid gap-0 md:gap-2 md:mt-12 sm:gap-2 sm:mt-12 sm:w-4/5 s:gap-2 s:mt-12 s:ml-0 s:w-10/12'}>
