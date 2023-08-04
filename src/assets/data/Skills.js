@@ -20,16 +20,16 @@ export const skills = [
         percentage: 87,
     },
     {
+        skill: 'SQL',
+        percentage: 90,
+    },
+    {
         skill: 'React',
         percentage: 90,
     },
     {
         skill: 'Redux',
         percentage: 85,
-    },
-    {
-        skill: 'SQL',
-        percentage: 90,
     },
     {
         skill: 'TailwindCSS',
