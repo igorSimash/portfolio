@@ -103,7 +103,7 @@ const AboutSection = () => {
                 <div className={'mx-36 mt-16 flex md:flex-col md:items-center md:mx-0 sm:flex-col sm:items-center sm:mx-0 s:flex-col s:items-center s:mx-0'}>
                     <div className={'font-raleway text-sectionName w-2/5'}>
                         <div className={'flex justify-center'}>
-                            <img className={'mask mask-hexagon-2 w-80'} src={CVimg} alt="face"/>
+                            <img className={'mask mask-hexagon-2 w-80'} src={CVimg} alt={"Ihor Simashko Photo"} width={164} height={164}/>
                         </div>
                         <div className={'text-center font-bold text-xl'}>
                             Who is this guy?

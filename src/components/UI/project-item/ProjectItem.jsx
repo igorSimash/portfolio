@@ -8,7 +8,7 @@ const ProjectItem = ({img, isMobile, name, skills, description, site, github, gi
             <div className={`card hideSiblings s:mx-auto ${isMobile ? 'card-mobile' : null}`}>
                 <div className={`image ${isMobile ? 'image-mobile' : null}`}>
                     <img
-                        src={img} alt={''}/>
+                        src={img} alt={`Project: "${name}"`} width={300} height={170}/>
                 </div>
                 <div className="details">
                     <div className="center">
