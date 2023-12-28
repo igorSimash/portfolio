@@ -6,7 +6,7 @@ const LinkNav = ({children, toId}) => {
 
     return (
         <span
-            className={'mr-10 cursor-pointer hover:text-red-500 transition-all s:text-sm s:mr-7'}
+            className={'cursor-pointer hover:text-red-500 transition-all s:text-xs'}
         >
             <Link
                 to={toId}

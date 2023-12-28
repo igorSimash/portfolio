@@ -19,7 +19,7 @@ const HomeSection = () => {
                     </span>
                 </Bounce>
                 I'm a Full Stack Developer
-                <div className={'text-sm s:text-exSm sm:text-xs mt-6 flex flex justify-center items-center box-border'}>
+                <div className={'text-sm s:text-exSm sm:text-xs mt-6 flex justify-center items-center box-border'}>
                     <ContactsHome/>
                 </div>
             </div>

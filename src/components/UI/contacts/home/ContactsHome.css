@@ -3,11 +3,11 @@
 .contacts-home-ul {
     position: relative;
     display: flex;
+    gap: 30px;
 }
 .contacts-home-ul .contacts-home-li {
     position: relative;
     list-style: none;
-    margin: 0 20px;
     cursor: pointer;
 }
 .contacts-home-ul .contacts-home-li .contacts-home-href {

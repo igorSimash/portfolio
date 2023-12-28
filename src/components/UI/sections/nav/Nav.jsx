@@ -43,7 +43,7 @@ const Nav = () => {
                 null
             }
 
-            <div className={'flex items-center h-full ml-36 sm:justify-center sm:ml-0 s:justify-center s:ml-0 font-raleway relative'}>
+            <div className={'flex gap-10 s:gap-5 items-center h-full ml-36 sm:justify-center sm:ml-0 s:justify-center s:ml-0 font-raleway relative'}>
                 <LinkNav toId={'home-section'}>
                     Home
                 </LinkNav>
