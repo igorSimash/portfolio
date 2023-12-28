@@ -1,0 +1,3 @@
+.link-nav-span .active {
+    @apply text-red-500
+}

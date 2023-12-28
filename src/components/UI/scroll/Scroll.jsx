@@ -5,6 +5,7 @@ const Scroll = () => {
     return (
         <Link
             to={'about-section'}
+            href={'#about-section'}
             spy={true}
             smooth={true}
             duration={500}
