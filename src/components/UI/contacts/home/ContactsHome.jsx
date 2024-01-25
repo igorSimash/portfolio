@@ -6,7 +6,7 @@ const ContactsHome = () => {
         <ul className={'contacts-home-ul'}>
             <Flip left triggerOnce={true}>
                 <li className={'contacts-home-li'}>
-                    <a href="https://t.me/igoryancik" className={'contacts-home-href'}>
+                    <a href="https://t.me/ihorsimashko" className={'contacts-home-href'}>
                         <i className="fa-brands fa-telegram telegram"></i>
                     </a>
                 </li>
