@@ -74,6 +74,7 @@
     padding: 0;
     color: #262626;
     margin-bottom: 3px;
+    font-style: italic;
 }
 
 @media (max-width: 1340px) {

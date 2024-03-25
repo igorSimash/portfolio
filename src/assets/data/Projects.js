@@ -10,7 +10,7 @@ export const projects = [
     {
         name: `Department's site`,
         skills: 'Node.js, AWS, MySQL, React, Tailwind',
-        description: `In progress...`,
+        description: `March 2023`,
         img: FCIT_SC,
         mobile: false,
         site: 'https://fcit-cs-client-develop.vercel.app'
@@ -18,7 +18,7 @@ export const projects = [
     {
         name: 'Todo app',
         skills: 'React, Typescript, Node.js, Express, MySQL',
-        description: 'Full Stack app with sign up/in, sessions etc...',
+        description: 'January 2023',
         img: Todo,
         mobile: false,
         site: 'https://ihor-todo.vercel.app/todos',
@@ -47,7 +47,7 @@ export const projects = [
     {
         name: 'Weather forecast',
         skills: 'React, Typescript, Tailwind',
-        description: 'Cool weather forecast app, which shows the weather accurately.',
+        description: 'July 2022',
         img: Weather,
         mobile: false,
         site: 'https://weather-ihor.netlify.app',
@@ -56,7 +56,7 @@ export const projects = [
     {
         name: 'Currency converter',
         skills: 'React, JS, Tailwind',
-        description: 'Simple but useful currency converter.',
+        description: 'July 2022',
         img: Converter,
         mobile: false,
         site: 'https://currency-ihor.netlify.app',
@@ -74,7 +74,7 @@ export const projects = [
     {
         name: 'Workout app',
         skills: 'React, Tailwind, backend',
-        description: 'Workout app for rep-counting',
+        description: 'June 2022',
         img: Gym,
         mobile: true,
         site: 'https://workout-ihor.netlify.app',
